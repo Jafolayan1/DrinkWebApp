@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DrinkWebApp.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20200829045232_Identity")]
-    partial class Identity
+    [Migration("20210305033915_Before runnig")]
+    partial class Beforerunnig
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

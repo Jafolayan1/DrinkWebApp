@@ -44,7 +44,7 @@ namespace DrinkWebApp.Controllers
             {
                 _shoppingCart.AddToCart(selectedDrink, 1);
             }
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Drink");
         }
 
         public RedirectToActionResult RemoveFromShoppingCart(int drinkId)
