@@ -1,5 +1,5 @@
 # Project 
-* DrinkShop---
+* DrinkWebApp
 
 ## Description
 * An ASP.NET Core E-commerce application, Built using C#, AspNetCore 3.1 Mvc , EfCore , Mssql ...
@@ -12,7 +12,7 @@
 * Open solution (.sln) file 
 * Clean solution
 * Build solution
-* open command  package manager console and rund
+* open command  package manager console and run
 ```
 Add-migration
 update-database
