@@ -21,5 +21,12 @@ namespace DrinkWebApp.Controllers
             };
             return View(homeViewModel);
         }
+
+        public IActionResult About()
+        {
+            TempData["alert"] = "No about info";
+            return View();
+            
+        }
     }
 }

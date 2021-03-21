@@ -29,7 +29,7 @@
                 <ul class="nav navbar-nav">
                     <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                     @await Component.InvokeAsync("CategoryMenu")
-                    <li><a asp-controller="About" asp-action="Index">About</a></li>
+                    <li><a asp-controller="Home" asp-action="About">About</a></li>
                     @await Component.InvokeAsync("ShoppingCartSummary")
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
@@ -45,7 +45,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p><a target="_blank" href="https://github.com/etrupja">&copy; 2020 - Joshua Afolayan</a></p>
+            <p><a target="_blank" href="https://github.com/jafolayan1">&copy; 2020 - Joshua Afolayan</a></p>
         </footer>
     </div>
 </body>
